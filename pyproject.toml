@@ -1,0 +1,11 @@
+[project]
+name = "my-python-modules"
+description = "My python modules"
+# version = "0.1.0"
+authors = [{ name = "Dawid Sowa", email = "dawid_sowa@posteo.net" }]
+# dependencies = ["pyspark[ml]", "sklearn"]
+# [project.optional-dependencies]
+# dev = ["tox", "pre-commit", "bump2version"]
+# [build-system]
+# build-backend = "flit_core.buildapi"
+# requires = ["flit_core >=3.2,<4"]
