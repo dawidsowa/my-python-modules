@@ -1,5 +1,5 @@
 [project]
-name = "my-python-modules"
+name = "Moje"
 description = "My python modules"
 dynamic = ['version']
 authors = [{ name = "Dawid Sowa", email = "dawid_sowa@posteo.net" }]
