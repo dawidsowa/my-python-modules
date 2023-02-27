@@ -4,7 +4,7 @@ description = "My python modules"
 dynamic = ['version']
 authors = [{ name = "Dawid Sowa", email = "dawid_sowa@posteo.net" }]
 
-# dependencies = ["pyspark[ml]", "sklearn"]
+# dependencies = [""]
 # [project.optional-dependencies]
 # dev = ["tox", "pre-commit", "bump2version"]
 [build-system]
