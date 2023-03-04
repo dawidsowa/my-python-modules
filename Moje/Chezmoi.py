@@ -16,9 +16,8 @@ WORKING_TREE = Path("~/.local/share/chezmoi/").expanduser()
 SOURCE_DIR = WORKING_TREE / "home"
 
 DATA_PATH = SOURCE_DIR / ".chezmoidata.json"
-CONFIG_PATH = Path("~/.config/chezmoi/chezmoi.toml").expanduser()
 
-DATA = json.load(DATA_PATH.open()) | toml.load(CONFIG_PATH.open())["data"]
+DATA = json.load(DATA_PATH.open())
 
 
 class Chezmoi_INI(ConfigParser):
